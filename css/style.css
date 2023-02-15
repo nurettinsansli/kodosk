@@ -1888,6 +1888,10 @@ pre code {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+.bg-transparent:hover {
+  background-color:#192811 !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     transition: none;
@@ -6094,7 +6098,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #F9A392 !important;
+  background-color: #81d58f !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
