@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Ertoba Metal - About Us</title>
+    <title>Ertoba Metal - Safety Barrier</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -77,13 +77,13 @@
             <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                 <div class="navbar-nav m-auto py-0">
                     <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link active">About</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="service.html" class="nav-item nav-link">Services</a>
                     <!--<a href="price.html" class="nav-item nav-link">Pricing</a>-->
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Products</a>
                         <div class="dropdown-menu rounded-0 m-0">
-                            <a href="appointment.html" class="dropdown-item">Appointment</a>
+                            <a href="safety-barrier.html" class="dropdown-item">Safety Barrier</a>
                             <a href="opening.html" class="dropdown-item">Open Hours</a>
                             <a href="team.html" class="dropdown-item">Our Team</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
@@ -104,11 +104,11 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid bg-jumbotron" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
-            <h3 class="text-white display-3 mb-4">About</h3>
+            <h3 class="text-white display-3 mb-4">Safety Barrier</h3>
             <div class="d-inline-flex align-items-center text-white">
-                <p class="m-0"><a class="text-white" href="">Home</a></p>
+                <p class="m-0"><a class="text-white" href="">Products</a></p>
                 <i class="far fa-circle px-3"></i>
-                <p class="m-0">About</p>
+                <p class="m-0">Safety Barrier</p>
             </div>
         </div>
     </div>
@@ -119,16 +119,14 @@
     <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row align-items-center">
-                <div class="col-lg-6 pb-5 pb-lg-0">
-                    <img class="img-fluid w-100" src="img/about.jpg" alt="">
+                <div class="col-lg-6 pb-5 pb-lg-0 img-zoom" style="width: 400px">
+                    <img class="img-fluid w-100" src="img/safety-barrier.jpeg" alt="">
                 </div>
                 <div class="col-lg-6">
-                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">About Us</h6>
-                    <h1 class="mb-4">Ertoba Metal - About Us</h1>
-                    <p class="pl-4 border-left border-primary">"With the experience we have gained through technological developments and our summary working principle, we have a rapidly and continuously growing customer portfolio and, accordingly, the lowest capacity."<br><b>OĞUZHAN KORKMAZ</b></p>
-                    <p class="pl-4 border-left border-primary">With our fully equipped machines in our production area, we provide engineering and design support to all kinds of works with or without a project, while we produce your products with welded or assembled manufacturing. While we aim to keep the satisfaction of our customers at the highest level with our ISO 9001:2015, ISO 14001, OHSAS 18001 quality certificates, we do not compromise on protecting the nature and ensuring the occupational safety of our personnel.</p>
-                    <!--                    <p class="pl-4 border-left border-primary">"Teknolojik gelişmeler ve detaylı çalışma prensibimiz doğrultusunda edindiğimiz tecrübeler ile hızla ve sürekli büyüyen bir müşteri portföyüne ve buna bağlı gelişen kapasite artışına sahip olduk." <br><b>OĞUZHAN KORKMAZ</b></p>-->
-<!--                    <p class="pl-4 border-left border-primary">Üretim alanımızda tam donanımlı makinelerimizle, projeli veya projesiz her türlü işinize mühendislik, tasarım desteği verirken, ürünlerinizi kaynaklı veya montajlı imalat ile üretiyoruz. ISO 9001:2015, ISO 14001, OHSAS 18001 kalite belgelerimiz ile müşterilerimizin memnuniyetini en üst düzeyde tutmayı hedeflerken, doğayı korumaktan ve personelimizin iş güvenliğini sağlamaktan taviz vermiyoruz.</p>-->
+                    <h6 class="d-inline-block text-primary text-uppercase bg-light py-1 px-2">Products</h6>
+                    <h1 class="mb-4">Safety Barrier</h1>
+                    <p class="pl-4 border-left border-primary">The products of this range Anti-Shock Protection are manufactured with help, robust quality and allow effective protection, of machines and buildings used both indoors and outdoors. The combination of the black strips applied to the yellow coating guarantees immediate recognition and thus a better visibility of zones dangerous. </p>
+                    <p class="pl-4 border-left border-primary">The safety sheets ensure protection have a diameter of 76 mm. The sheets are also favoured with technology and therefore not with The base is included, can be ordered separately. Shackle powder-coated in yellow and black, with screw-on plate of 120 x 195 mm.</p>
 <!--                    <div class="row pt-3">-->
 <!--                        <div class="col-6">-->
 <!--                            <div class="bg-light text-center p-4">-->
@@ -328,6 +326,27 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <!-- Zoom -->
+    <script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js" type="application/javascript"></script>
+
+    <script>
+
+var options1 = {
+    width: 400,
+    zoomWidth: 500,
+    offset: {vertical: 0, horizontal: 10}
+};
+
+// If the width and height of the image are not known or to adjust the image to the container of it
+var options2 = {
+    fillContainer: true,
+    offset: {vertical: 0, horizontal: 10}
+};
+
+new ImageZoom(document.getElementById("img-zoom"), options2);
+
+</script>
 </body>
 
 </html>
