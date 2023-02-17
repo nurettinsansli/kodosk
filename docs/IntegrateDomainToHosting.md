@@ -12,4 +12,4 @@
 <br>A @ 185.199.109.153	           1h<br>
 <br>A @ 185.199.110.153	           1h<br>
 <br>A @ 185.199.111.153	           1h<br>
-<br>CNAME www <username>.github.io 1h<br>
+<br>CNAME www username.github.io 1h<br>
