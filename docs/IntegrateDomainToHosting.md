@@ -13,3 +13,7 @@
 <br>A @ 185.199.110.153	           1h<br>
 <br>A @ 185.199.111.153	           1h<br>
 <br>CNAME www username.github.io 1h<br>
+<br><br><br>
+How to change remote git repo<br>
+git remote set-url origin https://github.com/nurettinsansli/ertobametalcom.git <br>
+git push origin master<br>
