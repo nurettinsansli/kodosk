@@ -120,7 +120,10 @@
                         <h6 class="d-inline-block text-white text-uppercase bg-primary py-1 px-2">Contact</h6>
                         <h1 class="mb-4">Contact For Any Query</h1>
                         <div id="success"></div>
-                        <form method="POST" action="https://formsubmit.co/83bd9ae9dfe30a3c9b8d8012b1f3c625" name="sentMessage" novalidate="novalidate">
+                        <form action="https://api.web3forms.com/submit" method="POST" id="form">
+                            <input type="hidden" name="access_key" value="9bd499af-44f7-442f-a21f-6bc86c785a46" />
+                            <input type="hidden" name="subject" value="Contact from Ertoba Metal" />
+                            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
                             <div class="form-row">
                                 <div class="col-sm-6 control-group">
                                     <input type="text" class="form-control border-0 p-4" name="name" placeholder="Your Name"

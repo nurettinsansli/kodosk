@@ -17,3 +17,9 @@
 How to change remote git repo<br>
 git remote set-url origin https://github.com/nurettinsansli/ertobametalcom.git <br>
 git push origin master<br>
+
+<br>email hosting pricing notes<br>
+gmail per user 5 usd
+hostinger one user 1 usdt 263 tl ödendi iade bekleniyor
+admin.yandex.ru 2239 tl bloke 200tl iade bekleniyor
+godaddy 632tlye alındı
