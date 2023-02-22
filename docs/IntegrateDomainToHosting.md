@@ -29,6 +29,6 @@ Tawk = chatbot
 web3forms = mailsender
 
 Purchase Cart
-.com=60tl .com.tr= 50tl in turkticaret.net
-each email account 210tl in godaddy 
+.com=3usd .com.tr= 2.5usd in turkticaret.net
+each email account 10.5usd in godaddy 
 github pages is free
