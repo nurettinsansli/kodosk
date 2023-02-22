@@ -23,3 +23,12 @@ gmail per user 5 usd
 hostinger one user 1 usdt 263 tl ödendi iade bekleniyor
 admin.yandex.ru 2239 tl bloke 200tl iade bekleniyor
 godaddy 632tlye alındı
+
+Free 3rd party API's
+Tawk = chatbot
+web3forms = mailsender
+
+Purchase Cart
+.com=60tl .com.tr= 50tl in turkticaret.net
+each email account 210tl in godaddy 
+github pages is free
