@@ -27,6 +27,7 @@ godaddy 632tlye alındı
 Free 3rd party API's
 Tawk = chatbot
 web3forms = mailsender
+bulk image resize dimension https://redketchup.io/bulk-image-resizer
 
 Purchase Cart
 .com=3usd .com.tr= 2.5usd in turkticaret.net
