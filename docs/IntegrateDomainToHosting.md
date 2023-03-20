@@ -33,3 +33,6 @@ Purchase Cart
 .com=3usd .com.tr= 2.5usd in turkticaret.net
 each email account 10.5usd in godaddy 
 github pages is free
+
+Language Structure Example Website
+omuzomuza.org
