@@ -9579,6 +9579,14 @@ h6,
   z-index: 1;
 }
 
+.carousel-caption-withoutbackground {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
 .service-item img {
   position: relative;
   margin-top: 40px;
